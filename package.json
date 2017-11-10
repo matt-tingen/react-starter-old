@@ -86,13 +86,15 @@
       "react-app"
     ],
     "plugins": [
-      "transform-react-render-parameters"
+      "transform-react-render-parameters",
+      "react-css-modules"
     ]
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "devDependencies": {
+    "babel-plugin-react-css-modules": "^3.3.2",
     "babel-plugin-transform-react-render-parameters": "^0.3.0"
   }
 }
