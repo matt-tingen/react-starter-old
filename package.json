@@ -45,7 +45,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "generate": "plop"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -95,6 +96,7 @@
   },
   "devDependencies": {
     "babel-plugin-react-css-modules": "^3.3.2",
-    "babel-plugin-transform-react-render-parameters": "^0.3.0"
+    "babel-plugin-transform-react-render-parameters": "^0.3.0",
+    "plop": "^1.9.0"
   }
 }
